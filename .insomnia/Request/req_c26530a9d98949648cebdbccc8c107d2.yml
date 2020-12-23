@@ -1,0 +1,26 @@
+_id: req_c26530a9d98949648cebdbccc8c107d2
+type: Request
+parentId: wrk_2388bde0274e4b2496ac26a03d6113ed
+modified: 1608682063117
+created: 1608682027361
+url: https://localhost:5001/graphql/
+name: SampleQuery
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n  blocks {\n    id\n  }\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_111250c8dc064ff2af4305a11db7d6d5
+authentication: {}
+metaSortKey: -1608682027361
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
